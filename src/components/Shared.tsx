@@ -79,7 +79,7 @@ export const Footer = () => (
       <div className="mx-auto max-w-7xl px-6 flex flex-col md:flex-row justify-between items-center gap-10">
           <div className="text-center md:text-left">
               <h2 className="text-4xl sm:text-5xl font-heading font-bold mb-4">Always excited to work on meaningful engineering challenges.</h2>
-              <p className="text-white/80 max-w-md text-lg italic">Open to full-time roles, internships, and collaborations.</p>
+              <p className="text-white/80 max-w-md text-lg italic">Always open to connecting, sharing ideas, and discussing tech.</p>
               <p className="text-earth-accent font-heading font-bold text-2xl mt-4">let's connect.</p>
           </div>
            <div className="flex items-center gap-4">
@@ -149,7 +149,7 @@ export const ExperienceCard = ({ role, company, date, bullets, location }: any) 
               {date}
           </div>
           <h3 className="text-2xl font-heading font-bold text-earth-text mb-1 leading-tight">{company}</h3>
-          <p className="text-earth-muted font-medium mb-3">{role}</p>
+          <p className="text-earth-primary font-semibold mb-3">{role}</p>
           {location && (
             <div className="flex items-center gap-2 text-earth-muted/70 text-sm">
                 <MapPin className="w-3.5 h-3.5" />

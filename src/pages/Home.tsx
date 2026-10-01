@@ -16,7 +16,7 @@ export default function Home() {
             <div className="flex-1 text-center lg:text-left">
                  <div className="inline-flex items-center gap-2 mb-8 px-6 py-3 rounded-full bg-earth-secondary/50 text-earth-primary text-sm font-bold uppercase tracking-widest border border-earth-secondary">
                      <span className="w-2 h-2 rounded-full bg-earth-accent animate-pulse"></span>
-                     Software Engineer • Master's Student
+                     Associate FDE @ Momentuum blue
                  </div>
                  
                  <h1 className="text-5xl sm:text-7xl md:text-8xl font-heading font-bold text-earth-text leading-[1] tracking-tight mb-10">
@@ -28,9 +28,9 @@ export default function Home() {
                  </h1>
                  
                  <div className="text-xl sm:text-2xl text-earth-muted leading-relaxed max-w-3xl mx-auto lg:mx-0 mb-12 space-y-2">
-                     <p className="font-semibold text-earth-primary">M.S. in Software Engineering @ ASU (’26).</p>
-                     <p>Full-stack engineer with experience in scalable systems, cloud-native services, and AI-powered applications.</p>
-                     <p>Focused on performance, reliability, and clean, user-centric design.</p>
+                     <p className="font-semibold text-earth-primary">Associate Forward Deployed Engineer @ Momentuum blue</p>
+                     <p className="text-earth-muted text-lg sm:text-xl font-medium">M.S. in Software Engineering @ Arizona State University</p>
+                     <p className="text-base sm:text-lg">Engineers production-grade agentic AI workflows, hybrid RAG pipelines, cloud services, and enterprise solutions.</p>
                  </div>
                  
                  <div className="flex flex-wrap justify-center lg:justify-start gap-6">

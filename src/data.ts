@@ -1,6 +1,6 @@
 export const PROFILE = {
   name: "Smit Mahesh Panchal",
-  title: "M.S. in Software Engineering @ ASU (’26)",
+  title: "Associate Forward Deployed Engineer @ Momentuum blue | M.S. in Software Engineering @ ASU",
   location: "Tempe, AZ",
   email: "smitpanchal1661@gmail.com",
   links: {
@@ -14,7 +14,7 @@ export const EDUCATION = [
   {
     school: "Arizona State University",
     degree: "Master of Science in Software Engineering",
-    date: "Graduating May 2026",
+    date: "Graduated May 2026",
     gpa: "3.93 / 4.00",
     coursework: ["Cloud Computing", "Data Processing at Scale", "Web-Based Applications", "Software Project", "Process & Quality Management", "Languages and Programming Paradigms", "Software Agility", "Advanced Data Structures and Algorithms", "Foundations of Software Engineering", "Semantic Web Engineering"]
   },
@@ -28,6 +28,28 @@ export const EDUCATION = [
 ];
 
 export const EXPERIENCE = [
+  {
+    role: "Associate Forward Deployed Engineer",
+    company: "Momentuum blue (A Coforge Company)",
+    date: "Aug 2026 – Present",
+    bullets: [
+      "Built agentic workflows with LangGraph, MCP, and ReAct, including human-review escalation and Jev-based decision routing for ambiguous cases.",
+      "Built end-to-end RAG pipelines with chunking, embeddings, hybrid retrieval (BM25 + vector search), Reciprocal Rank Fusion (RRF), cross-encoder reranking, and source citations.",
+      "Developed pytest evaluation harnesses and data-quality/lineage checks for retrieval recall, answer accuracy, citation validity, and tracing failures to retrieval or source data.",
+      "Architected enterprise AI solutions using Python, FastAPI, Pydantic, Ollama, pgvector, Docker, and GitHub Actions aligned with Momentuum blue delivery standards.",
+    ],
+  },
+  {
+    role: "Software Engineer (AI & Automation)",
+    company: "Auto BIM Route (Capstone)",
+    date: "Jan 2026 – May 2026",
+    bullets: [
+      "Developed an AI-powered Autodesk Revit assistant using C#/.NET, WPF, and the Revit API, owning the tool-execution architecture and engineering workflow integrations.",
+      "Designed a centralized tool registry and standardized JSON contracts to route requests into reusable engineering operations (panel loading, voltage-drop validation, circuit search, and model summarization).",
+      "Implemented Revit ExternalEvent asynchronous execution patterns to enable real-time BIM model querying and automated validation.",
+      "Collaborated in Agile sprints through code reviews and integration testing, delivering an end-to-end AI-enabled Revit workflow for electrical engineering automation.",
+    ],
+  },
   {
     role: "Machine Learning Engineering Intern",
     company: "Escape LLC – USA",
@@ -152,26 +174,38 @@ export const PROJECTS = [
 ];
 
 export const SKILLS = {
-  languages: ["Python", "Java", "JavaScript", "TypeScript", "C/C++", "SQL"],
-  ai_ml: ["NLP", "LLMs", "RAG", "Embeddings", "CNNs", "TensorFlow", "Scikit-learn", "Pandas", "NumPy", "Spark"],
-  genai: ["LangChain", "OpenAI API", "Ollama", "ChromaDB", "Vector DB", "Cursor", "Claude Code"],
-  frameworks: ["FastAPI", "Flask", "Django", "Spring Boot", "React", "Node.js", "Express.js"],
-  cloud: ["AWS (Lambda, S3, EC2, ECR, SQS, IoT)", "Docker", "Kubernetes", "CI/CD"],
-  databases: ["PostgreSQL", "MySQL", "MongoDB", "Firebase", "SQLite"],
-  professional: ["Technical Support", "Salesforce CRM", "Incident Management", "Security Analysis", "Vulnerability Reporting", "Team Collaboration", "Stakeholder Communication", "Problem Solving"],
+  languages: ["Python", "C#", "Java", "JavaScript", "TypeScript", "C/C++", "SQL"],
+  ai_ml: ["Agentic AI", "NLP", "LLMs", "RAG", "Embeddings", "Hybrid Retrieval (BM25 + RRF)", "Cross-Encoder Reranking", "Pytest", "CNNs", "TensorFlow", "Scikit-learn", "Pandas"],
+  genai: ["LangGraph", "MCP", "ReAct", "LangChain", "OpenAI API", "Ollama", "pgvector", "ChromaDB", "Vector DB", "Cursor", "Claude Code"],
+  frameworks: ["FastAPI", ".NET", "WPF", "Autodesk Revit API", "Pydantic", "Flask", "Django", "Spring Boot", "React", "Node.js", "Express.js"],
+  cloud: ["AWS (Lambda, S3, EC2, ECR, SQS, IoT)", "Docker", "Kubernetes", "GitHub Actions", "CI/CD"],
+  databases: ["PostgreSQL", "pgvector", "MySQL", "MongoDB", "Firebase", "SQLite"],
+  professional: ["Enterprise Delivery", "Technical Support", "Salesforce CRM", "Incident Management", "Security Analysis", "Vulnerability Reporting", "Team Collaboration", "Stakeholder Communication", "Problem Solving"],
 };
 
 export const EXTRACURRICULAR = [
   {
-    role: "Customer Service Specialist",
-    company: "Arizona State University",
-    date: "Apr 2025 – Present",
+    role: "IT Support Specialist",
+    company: "Enterprise Technology at Arizona State University",
+    date: "May 2026 – Aug 2026",
     location: "Tempe, AZ",
     bullets: [
-      "Provided technical support for system access, authentication, and platform-related issues across ASU’s digital services using Salesforce CRM, MyASU, and internal tools, handled an average of 60–80+ support queries per shift.",
-      "Partnered with engineering and QA teams to test and refine an AI-powered chatbot, contributing detailed usability feedback and designing test scenarios to improve automated responses and escalation handling.",
-      "Documented and optimized incident workflows in Salesforce, enhancing support team efficiency and improving end-user experience through faster ticket resolution and clearer escalation paths.",
-      "Assisted with peer and cross-department technical support during peak periods, helping resolve system access and platform issues to maintain service continuity during high-volume rush times.",
+      "Supported university-wide technology services for students, faculty, and staff as part of Enterprise Technology.",
+      "Troubleshot software, hardware, network, authentication, and enterprise application issues across OS environments using ServiceNow, Salesforce, and PeopleSoft.",
+      "Partnered with cross-functional teams to diagnose configuration issues across 50+ software packages, maintaining a high first-contact resolution rate.",
+      "Documented technical workflows, issue resolutions, and knowledge base articles while communicating solutions clearly to technical and non-technical users.",
+    ],
+  },
+  {
+    role: "Customer Service Specialist",
+    company: "Arizona State University",
+    date: "Apr 2025 – May 2026",
+    location: "Tempe, AZ",
+    bullets: [
+      "Provided technical support for system access, authentication, and platform-related issues across ASU’s digital services using Salesforce CRM, MyASU, and internal tools.",
+      "Partnered with engineering and QA teams to test and refine an AI-powered chatbot, contributing detailed usability feedback and designing test scenarios to improve automated responses.",
+      "Documented and optimized incident workflows in Salesforce, enhancing support team efficiency and ticket resolution speed.",
+      "Assisted with peer and cross-department technical support during peak periods to maintain continuous service availability.",
     ],
   },
 ];
